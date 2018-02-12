@@ -1,6 +1,5 @@
 {
     "configurations": [
-    
         {
             "name": "Linux",
             "includePath": [
@@ -42,7 +41,6 @@
                 "databaseFilename": ""
             }
         }
-        
     ],
     "version": 3
 }
