@@ -114,29 +114,29 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/hello.o: src/hello.cpp.o
-.PHONY : src/hello.o
+src/power.o: src/power.cpp.o
+.PHONY : src/power.o
 
 # target to build an object file
-src/hello.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.o
-.PHONY : src/hello.cpp.o
+src/power.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/power.cpp.o
+.PHONY : src/power.cpp.o
 
-src/hello.i: src/hello.cpp.i
-.PHONY : src/hello.i
+src/power.i: src/power.cpp.i
+.PHONY : src/power.i
 
 # target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
+src/power.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/power.cpp.i
+.PHONY : src/power.cpp.i
 
-src/hello.s: src/hello.cpp.s
-.PHONY : src/hello.s
+src/power.s: src/power.cpp.s
+.PHONY : src/power.s
 
 # target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
+src/power.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/power.cpp.s
+.PHONY : src/power.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
+	@echo "... src/power.o"
+	@echo "... src/power.i"
+	@echo "... src/power.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++       CMakeFiles/test.dir/src/hello.cpp.o  -o test -rdynamic 
+/usr/bin/c++       CMakeFiles/test.dir/src/power.cpp.o  -o test -rdynamic 
