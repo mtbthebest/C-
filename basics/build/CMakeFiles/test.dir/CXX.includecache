@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mtb/Projects/C++/basics/src/namespace.cpp
+/home/mtb/Projects/C++/basics/src/hello.cpp
 iostream
--
-string
 -
 

@@ -114,29 +114,29 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/namespace.o: src/namespace.cpp.o
-.PHONY : src/namespace.o
+src/hello.o: src/hello.cpp.o
+.PHONY : src/hello.o
 
 # target to build an object file
-src/namespace.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.o
-.PHONY : src/namespace.cpp.o
+src/hello.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.o
+.PHONY : src/hello.cpp.o
 
-src/namespace.i: src/namespace.cpp.i
-.PHONY : src/namespace.i
+src/hello.i: src/hello.cpp.i
+.PHONY : src/hello.i
 
 # target to preprocess a source file
-src/namespace.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.i
-.PHONY : src/namespace.cpp.i
+src/hello.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.i
+.PHONY : src/hello.cpp.i
 
-src/namespace.s: src/namespace.cpp.s
-.PHONY : src/namespace.s
+src/hello.s: src/hello.cpp.s
+.PHONY : src/hello.s
 
 # target to generate assembly for a file
-src/namespace.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.s
-.PHONY : src/namespace.cpp.s
+src/hello.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/hello.cpp.s
+.PHONY : src/hello.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/namespace.o"
-	@echo "... src/namespace.i"
-	@echo "... src/namespace.s"
+	@echo "... src/hello.o"
+	@echo "... src/hello.i"
+	@echo "... src/hello.s"
 .PHONY : help
 
 
