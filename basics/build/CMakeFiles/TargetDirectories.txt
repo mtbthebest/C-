@@ -1,1 +1,0 @@
-/home/mtb/Projects/C++/basics/build/CMakeFiles/test.dir
