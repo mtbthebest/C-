@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mtb/Projects/C++/basics/src/unary_op.cpp
+/home/mtb/Projects/C++/basics/src/namespace.cpp
 iostream
+-
+string
 -
 

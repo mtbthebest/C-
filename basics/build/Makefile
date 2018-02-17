@@ -114,29 +114,29 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/unary_op.o: src/unary_op.cpp.o
-.PHONY : src/unary_op.o
+src/namespace.o: src/namespace.cpp.o
+.PHONY : src/namespace.o
 
 # target to build an object file
-src/unary_op.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/unary_op.cpp.o
-.PHONY : src/unary_op.cpp.o
+src/namespace.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.o
+.PHONY : src/namespace.cpp.o
 
-src/unary_op.i: src/unary_op.cpp.i
-.PHONY : src/unary_op.i
+src/namespace.i: src/namespace.cpp.i
+.PHONY : src/namespace.i
 
 # target to preprocess a source file
-src/unary_op.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/unary_op.cpp.i
-.PHONY : src/unary_op.cpp.i
+src/namespace.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.i
+.PHONY : src/namespace.cpp.i
 
-src/unary_op.s: src/unary_op.cpp.s
-.PHONY : src/unary_op.s
+src/namespace.s: src/namespace.cpp.s
+.PHONY : src/namespace.s
 
 # target to generate assembly for a file
-src/unary_op.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/unary_op.cpp.s
-.PHONY : src/unary_op.cpp.s
+src/namespace.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.s
+.PHONY : src/namespace.cpp.s
 
 # Help Target
 help:
@@ -147,9 +147,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/unary_op.o"
-	@echo "... src/unary_op.i"
-	@echo "... src/unary_op.s"
+	@echo "... src/namespace.o"
+	@echo "... src/namespace.i"
+	@echo "... src/namespace.s"
 .PHONY : help
 
 

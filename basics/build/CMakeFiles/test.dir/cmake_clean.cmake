@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/test.dir/src/unary_op.cpp.o"
+  "CMakeFiles/test.dir/src/namespace.cpp.o"
   "test.pdb"
   "test"
 )

@@ -52,37 +52,37 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/src/unary_op.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/unary_op.cpp.o: ../src/unary_op.cpp
+CMakeFiles/test.dir/src/namespace.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/namespace.cpp.o: ../src/namespace.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/mtb/Projects/C++/basics/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/src/unary_op.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/unary_op.cpp.o -c /home/mtb/Projects/C++/basics/src/unary_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/test.dir/src/namespace.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/namespace.cpp.o -c /home/mtb/Projects/C++/basics/src/namespace.cpp
 
-CMakeFiles/test.dir/src/unary_op.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/unary_op.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mtb/Projects/C++/basics/src/unary_op.cpp > CMakeFiles/test.dir/src/unary_op.cpp.i
+CMakeFiles/test.dir/src/namespace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/namespace.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/mtb/Projects/C++/basics/src/namespace.cpp > CMakeFiles/test.dir/src/namespace.cpp.i
 
-CMakeFiles/test.dir/src/unary_op.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/unary_op.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mtb/Projects/C++/basics/src/unary_op.cpp -o CMakeFiles/test.dir/src/unary_op.cpp.s
+CMakeFiles/test.dir/src/namespace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/namespace.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/mtb/Projects/C++/basics/src/namespace.cpp -o CMakeFiles/test.dir/src/namespace.cpp.s
 
-CMakeFiles/test.dir/src/unary_op.cpp.o.requires:
-.PHONY : CMakeFiles/test.dir/src/unary_op.cpp.o.requires
+CMakeFiles/test.dir/src/namespace.cpp.o.requires:
+.PHONY : CMakeFiles/test.dir/src/namespace.cpp.o.requires
 
-CMakeFiles/test.dir/src/unary_op.cpp.o.provides: CMakeFiles/test.dir/src/unary_op.cpp.o.requires
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/unary_op.cpp.o.provides.build
-.PHONY : CMakeFiles/test.dir/src/unary_op.cpp.o.provides
+CMakeFiles/test.dir/src/namespace.cpp.o.provides: CMakeFiles/test.dir/src/namespace.cpp.o.requires
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/namespace.cpp.o.provides.build
+.PHONY : CMakeFiles/test.dir/src/namespace.cpp.o.provides
 
-CMakeFiles/test.dir/src/unary_op.cpp.o.provides.build: CMakeFiles/test.dir/src/unary_op.cpp.o
+CMakeFiles/test.dir/src/namespace.cpp.o.provides.build: CMakeFiles/test.dir/src/namespace.cpp.o
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/src/unary_op.cpp.o"
+"CMakeFiles/test.dir/src/namespace.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/src/unary_op.cpp.o
+test: CMakeFiles/test.dir/src/namespace.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test"
@@ -92,7 +92,7 @@ test: CMakeFiles/test.dir/link.txt
 CMakeFiles/test.dir/build: test
 .PHONY : CMakeFiles/test.dir/build
 
-CMakeFiles/test.dir/requires: CMakeFiles/test.dir/src/unary_op.cpp.o.requires
+CMakeFiles/test.dir/requires: CMakeFiles/test.dir/src/namespace.cpp.o.requires
 .PHONY : CMakeFiles/test.dir/requires
 
 CMakeFiles/test.dir/clean:
