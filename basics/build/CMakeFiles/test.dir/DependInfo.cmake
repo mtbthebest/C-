@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mtb/Projects/C++/basics/src/func.cpp" "/home/mtb/Projects/C++/basics/build/CMakeFiles/test.dir/src/func.cpp.o"
+  "/home/mtb/Projects/C++/basics/src/unary_op.cpp" "/home/mtb/Projects/C++/basics/build/CMakeFiles/test.dir/src/unary_op.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

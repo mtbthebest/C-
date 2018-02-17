@@ -1,17 +1,23 @@
 #include <iostream>
-#include <cmath>
-double power(float);
+#include <string>
 using namespace std;
 int main(int argc, char const *argv[])
 {
-    float x = 2.0, a;
-    a = power(x);
-    std::cout << "Value of a: " << a;
+    std::cout << "Inputing values: " <<endl;
+    char value;
+    string name;
+    // cin >> value;
+    // cin >> name ;
+
+    // cout << name;
+    // cout << value;
+    string word,rest;
+    cin.get();
+    cin >> word;
+    getline(cin, rest,'!');
+    cout << "Word: " <<word << endl;
+    cout << "Rest: "<< rest << endl;
+
 
     return 0;
-}
-
-double power(float x)
-{
-    return pow(x, 2);
 }

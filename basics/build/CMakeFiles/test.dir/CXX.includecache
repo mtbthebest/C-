@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mtb/Projects/C++/basics/src/func.cpp
+/home/mtb/Projects/C++/basics/src/unary_op.cpp
 iostream
--
-cmath
 -
 
