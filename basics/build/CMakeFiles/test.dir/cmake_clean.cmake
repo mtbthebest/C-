@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/test.dir/src/power.cpp.o"
+  "CMakeFiles/test.dir/src/func.cpp.o"
   "test.pdb"
   "test"
 )

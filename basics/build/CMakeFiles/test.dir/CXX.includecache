@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/mtb/Projects/C++/basics/src/power.cpp
+/home/mtb/Projects/C++/basics/src/func.cpp
 iostream
 -
 cmath
--
-string
 -
 

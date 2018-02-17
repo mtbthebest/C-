@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    double x = 2.5, y;
+    double x = 2.5, y; 
     cout << x << endl;
     y = pow(x,2);
     cout << y << endl;
