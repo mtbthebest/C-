@@ -8,8 +8,10 @@ class Account{
     private:
         string name; unsigned long nr; double balance;
     public:
-        bool init(const string&, unsigned long, double);
-        void display();
+      Account(const string&, unsigned long, double);
+      Account(const string &);
+      bool init(const string &, unsigned long, double);
+      void display();
 };
 
 #endif 
