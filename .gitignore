@@ -3,3 +3,9 @@ basics/build/
 classes/build/
 
 classes/\.idea/
+
+cmake-build-debug/
+
+\.vscode/
+
+\.idea/
