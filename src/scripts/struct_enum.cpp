@@ -90,7 +90,7 @@ void definition(){
     typedef  double real;
     real b =10.0;
     std::cout<<b<<endl;
-    
+
     struct person{
         char name[30];
         long int tel_num ;
