@@ -21,7 +21,7 @@ public:
 class derived2 : private base {
     int k;
 public:
-    derived2(int x) { k=x; }
+    derived2(int x) { k=i *j; }
     void showk() { cout << k << "\n"; }
 };
 
@@ -34,7 +34,7 @@ int main(int argc, char const *argv[]) {
     d1.showk();
 
     d2.showk();
-    
+
 
 
     return 0;
