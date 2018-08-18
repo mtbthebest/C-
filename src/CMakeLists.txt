@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILES scripts/exceptions3.cpp)
+set(SOURCE_FILES scripts/casting2.cpp)
 
 include_directories(include)
 include_directories(scripts)
