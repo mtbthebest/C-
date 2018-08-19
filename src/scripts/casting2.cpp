@@ -50,16 +50,19 @@ int main(int argc, char *argv[]) {
     Cat cat;
     Platypus pl;
 
-//    p=&AnyMammal;
-//
-//    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
-//
-//    p =&pl;
-//    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
-//    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
-    WhatMammal(AnyMammal);
-    WhatMammal(cat);
-    WhatMammal(pl);
+    p=&AnyMammal;
+
+    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
+
+    p =&pl;
+    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
+    std::cout<<"p is pointing to an object of type "<< typeid(*p).name()<<endl;
+
+
+
+//    WhatMammal(AnyMammal);
+//    WhatMammal(cat);
+//    WhatMammal(pl);
 
     return 0;
 }
